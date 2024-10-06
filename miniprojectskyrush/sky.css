@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* สีพื้นหลัง */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px; /* ขอบมน */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+h1 {
+    color: #333; /* สีหัวข้อ */
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50; /* สีหัวข้อย่อย */
+}
+
+video {
+    display: block;
+    margin: 0 auto; /* จัดกลาง */
+    border-radius: 8px; /* ขอบมน */
+}
+
+p {
+    line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+    color: #555; /* สีข้อความ */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 5px; /* ขอบมน */
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #45a049; /* เปลี่ยนสีเมื่อชี้ */
+}
+@media only screen and (max-width: 480px) {
+	.grid-container {
+
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+	}
+
+	#header {
+		grid-column: 1 / span 1;
+	}
+
+	#footer {
+		grid-column: 1 / span 1;
+	}
+
+	#main2 {
+		grid-column: 2 / span 1;
+		background-color: blanchedalmond;
+	}
+
+}
+body{
+    background-color: blanchedalmond;
+}

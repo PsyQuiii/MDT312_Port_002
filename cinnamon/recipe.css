@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: lightcyan;
+}
+body{
+    background-color: antiquewhite;
+}
+.ipakkapon{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+   
+}
+.div_display{
+    border: 5px solid tomato;
+    width: 200;
+    display: inline-block;
+}
+#cinnamon{
+    position: static;
+    border: 10px outset rgb(0, 225, 255);
+    border-radius: 20%;
+    
+}
+#minecraft{
+    position: static;
+    border: 10px outset rgb(0, 225, 255);
+    border-radius: 20%;
+    width: 200px;
+    
+}
+.ipakkapon > div{
+    width: 1000px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+img{
+    width: 30%;
+}
+.code{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: lightcyan;
+}   
+a:link{
+	color: #1900ff; 
+}  */
+/* visited link */
+a:visited{
+	color: #00FF00; 
+} 
+/* mouse over link */  
+ a:hover{ 
+	color: #FF00FF; 
+} 
+div ul{
+    background-color: lightcyan;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color:lightcyan;
+}

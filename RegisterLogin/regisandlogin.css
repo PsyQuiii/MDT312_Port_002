@@ -1,0 +1,99 @@
+/* กำหนดสไตล์ทั่วไปของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* การจัดวางฟอร์มให้อยู่ตรงกลาง */
+form {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 100%;
+}
+
+/* ตกแต่งหัวข้อฟอร์ม */
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* การจัดวางข้อความแสดงข้อผิดพลาด */
+#errormsg {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+/* การจัดวางช่องกรอกข้อมูลในฟอร์ม */
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* การจัดวางปุ่ม */
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"] {
+    width: calc(50% - 10px);
+    margin: 10px 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* เปลี่ยนสีปุ่มเมื่อเอาเมาส์ไปวาง */
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+/* ตกแต่งปุ่ม Reset */
+input[type="reset"] {
+    background-color: #f44336;
+}
+
+/* เปลี่ยนสีปุ่ม Reset เมื่อเอาเมาส์ไปวาง */
+input[type="reset"]:hover {
+    background-color: #e31e1e;
+}
+
+/* การจัดวางปุ่มแบบ Inline */
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"] {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+/* ตกแต่งกล่องวิทยุ (Radio buttons) */
+input[type="radio"] {
+    margin: 0 5px;
+}
+body{
+    background-color: blanchedalmond;
+}

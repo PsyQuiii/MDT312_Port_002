@@ -1,0 +1,83 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Light background */
+    color: #333; /* Dark text */
+    margin: 20px;
+    padding: 20px; /* Padding for body */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Header styles */
+h1 {
+    text-align: center; /* Centered heading */
+    color: #2980b9; /* Header color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    color: #2980b9; /* Sub-header color */
+    margin-bottom: 10px; /* Space below sub-headers */
+}
+
+h3 {
+    color: #2c3e50; /* Darker color for replies */
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 1px solid #ddd; /* Light border for horizontal lines */
+    margin: 20px 0; /* Space around the horizontal lines */
+}
+
+/* Topic and reply box styles */
+#topic, #reply1, #reply2 {
+    background-color: #ffffff; /* White background for topic/replies */
+    padding: 15px; /* Padding inside the boxes */
+    border-radius: 5px; /* Rounded corners for boxes */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 10px; /* Space above boxes */
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%; /* Full width for the textarea */
+    height: 100px; /* Fixed height for textarea */
+    padding: 10px; /* Padding inside the textarea */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    resize: none; /* Disable resizing */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+    margin-bottom: 15px; /* Space below the textarea */
+}
+
+/* Button styling */
+button {
+    background-color: #3498db; /* Button color */
+    color: #fff; /* White text */
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    margin-right: 10px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+button:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5); /* Add shadow on focus */
+}
+body{
+    background-color: blanchedalmond;
+}
