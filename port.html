@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="projectandindex.css"> 
+    <script src="port.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Portfolio</h1>
+        
+        <h2>ชื่อ-นามสกุล</h2>
+        <p>ณัฏฐนันธ์ ไทยสถิตย์</p>
+       
+        <h2>งานอดิเรก</h2>
+        <p>
+            <span style="cursor:pointer;" onclick="showBookAlert('อ่านหนังสือ')">อ่านหนังสือ</span>, 
+            <span style="cursor:pointer;" onclick="gameBookAlert('เล่นเกม')">เล่นเกม</span>, 
+            <span style="cursor:pointer;" onclick="aniBookAlert('ดูการ์ตูน')">ดูการ์ตูน</span>
+        </p>
+        
+        <h2>ทักษะ ความสามารถ</h2>
+        <p>- เขียนโปรแกรม (HTML, CSS, JavaScript)<br>
+           - Adobe Photoshop, Illustrator, Premiere Pro<br>
+           - Microsoft Word, PowerPoint<br>
+           - ภาษาญี่ปุ่น<br>
+        </p>
+        
+        <h2>ความสนใจ</h2>
+        <p>เทคโนโลยีใหม่ๆ, ธรรมชาติ, สัตว์น้ำ</p>
+
+        <h2>รูป</h2>
+        <img src="profile.jpg" alt="Profile Picture" width="300" height="300"> 
+        
+        <h2>Social Links</h2>
+        <p>
+            <a href="#" onclick="showAlertAndRedirect('https://www.facebook.com/profile.php?id=100012537767504')">Facebook</a><br>
+            <a href="#" onclick="igAlertAndRedirect('https://www.instagram.com/mameyoudoufu/')">Instagram</a><br>
+        </p>
+
+        
+        <footer class="footer">
+            <a href="project.html" class="back-link">ไปยังโปรเจกต์</a>
+        </footer>
+    </div>
+
+</body>
+</html>
